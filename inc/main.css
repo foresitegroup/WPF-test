@@ -1,0 +1,419 @@
+/*
+#1C305B - blue
+#24A9E0 - light blue
+#FE7004 - orange
+*/
+
+@font-face {
+  font-family: 'Geometos';
+  src:url('fonts/Geometos.ttf.woff') format('woff'),
+      url('fonts/Geometos.ttf.svg#Geometos') format('svg'),
+      url('fonts/Geometos.ttf.eot'),
+      url('fonts/Geometos.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+BODY {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  color: #474747;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+IMG {
+  border: 0;
+}
+
+HR {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+A:link, A:visited {
+  color: #0000FF;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+A:hover, A:active {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+H1 {
+  font-size: 170%;
+  margin: 0 0 0.5em;
+}
+
+H2 {
+  font-size: 150%;
+  margin: 0 0 0.5em;
+}
+
+.site-width {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.site-width:after,
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+HEADER {
+  box-sizing: border-box;
+  height: 127px;
+  padding: 26px 0;
+}
+
+#logo { display: inline-block; margin: 5px 0; height: 65px; }
+
+#logo IMG {
+  max-height: 100%;
+  width: auto;
+}
+
+#header-right {
+  float: right;
+  width: 30.18%;
+}
+
+#header-right A.contact-button:link,
+#header-right A.contact-button:visited,
+#header-right A.join-button:link,
+#header-right A.join-button:visited,
+FOOTER .left A.contact-button:link,
+FOOTER .left A.contact-button:visited,
+FOOTER .left A.join-button:link,
+FOOTER .left A.join-button:visited {
+  background: #24A9E0;
+  color: #FFFFFF;
+  font-family: 'Geometos', sans-serif;
+  font-size: 13.79px;
+  line-height: 1em;
+  text-transform: uppercase;
+  padding: 0.8em 0 0.5em;
+  box-sizing: border-box;
+  width: 66.26%;
+  float: left;
+  text-align: center;
+}
+
+#header-right A.join-button:link,
+#header-right A.join-button:visited {
+  background: #FE7004;
+  width: 28.61%;
+  float: right;
+}
+
+#header-right A.contact-button:hover,
+#header-right A.contact-button:active,
+#header-right A.join-button:hover,
+#header-right A.join-button:active {
+  background: #1C305B;
+}
+
+#header-right FORM { clear: both; padding-top: 1em; }
+#header-right FORM DIV { position: relative; }
+
+#header-right INPUT[type="text"] {
+  outline: 0;
+  border: 1px solid #D7D7D7;
+  background: transparent;
+  color: #474747;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1em;
+  padding: 0.19em 35px 0.19em 5px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+#header-right BUTTON {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 30px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: #1C305B;
+  color: #FFFFFF;
+  font-size: 17px;
+  line-height: 1em;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-appearance: none;
+}
+
+#header-right BUTTON:hover { background: #24A9E0; }
+
+#headnav {
+  background: #1C305B;
+  color: #FFFFFF;
+  font-family: 'Geometos', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+#headnav UL {
+  text-align: right;
+  padding: 0;
+  list-style-type: none;
+}
+
+#headnav UL LI {
+  display: inline-block;
+  position: relative;
+}
+
+#headnav UL LI:hover { background: #24A9E0; }
+
+#headnav UL LI A:link, #headnav UL LI A:visited,
+#headnav UL LI:hover A, #headnav UL LI:active A,
+#headnav UL LI UL LI A:link, #headnav UL LI UL LI A:visited,
+#headnav UL LI UL LI A:hover, #headnav UL LI UL LI A:active {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 1.9em 1em 1.55em;
+}
+
+#headnav UL LI UL {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 1em 0;
+  background: #24A9E0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1em;
+  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.2), -10px 10px 15px 0px rgba(0,0,0,0.2);
+}
+
+#headnav UL LI UL.columns {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1em;
+  text-transform: none;
+}
+
+#headnav UL LI:hover UL,
+#headnav UL LI UL LI { display: block; }
+
+#headnav UL LI UL LI:hover { background: #1C305B; }
+#headnav UL LI UL.columns LI:hover { background: transparent; }
+
+#headnav UL LI UL LI A:link, #headnav UL LI UL LI A:visited,
+#headnav UL LI UL LI A:hover, #headnav UL LI UL LI A:active {
+  padding: 1.5em 2em 1.15em;
+  white-space: nowrap;
+}
+
+#headnav UL LI UL.columns LI A:link, #headnav UL LI UL.columns LI A:visited,
+#headnav UL LI UL.columns LI A:hover, #headnav UL LI UL.columns LI A:active {
+  padding: 1.3em 0 1.3em 2em;
+}
+
+#headnav UL LI UL.columns LI A:hover, #headnav UL LI UL.columns LI A:active {
+  color: #1C305B;
+}
+
+#headnav UL LI UL.columns LI A:after {
+  content: "\00bb";
+  margin-left: 0.5em;
+  color: #1C305B;
+}
+
+FOOTER {
+  background: #464646;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 95px 0;
+}
+
+FOOTER .left {
+  display: inline-block;
+  width: 35.45%;
+  text-align: center;
+}
+
+FOOTER .left IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+FOOTER .left A.contact-button:link,
+FOOTER .left A.contact-button:visited,
+FOOTER .left A.join-button:link,
+FOOTER .left A.join-button:visited {
+  margin: 1.1em 0;
+  font-size: 16px;
+  line-height: 1em;
+  width: 58.71%;
+}
+
+FOOTER .left A.join-button:link,
+FOOTER .left A.join-button:visited {
+  background: #FE7004;
+  width: 33.33%;
+  float: right;
+}
+
+FOOTER .left A.contact-button:hover,
+FOOTER .left A.contact-button:active,
+FOOTER .left A.join-button:hover,
+FOOTER .left A.join-button:active {
+  background: #B5B5B5;
+}
+
+FOOTER .social A:link, FOOTER .social A:visited {
+  margin: 0 3%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #B5B5B5;
+  border-radius: 50%;
+  color: #B5B5B5;
+  font-size: 21px;
+  line-height: 1em;
+}
+
+FOOTER .social A:hover, FOOTER .social A:active {
+  border-color: #24A9E0;
+  color: #24A9E0;
+}
+
+FOOTER .social A:first-of-type { margin-left: 0; }
+FOOTER .social A:last-of-type { margin-right: 0; }
+
+FOOTER .social A .fab {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+FOOTER #footnav {
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+
+FOOTER #footnav UL {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 70px;
+  -moz-column-gap: 70px;
+  column-gap: 70px;
+}
+
+FOOTER #footnav UL LI {
+  text-align: left;
+  padding: 0.8em 0;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
+
+FOOTER #footnav UL LI A:link, FOOTER #footnav UL LI A:visited {
+  color: #FFFFFF;
+}
+
+FOOTER #footnav UL LI A:hover, FOOTER #footnav UL LI A:active {
+  color: #24A9E0;
+}
+
+FOOTER #footnav UL LI A:after {
+  content: "\00bb";
+  margin-left: 0.5em;
+  color: #24A9E0;
+}
+
+#copyright {
+  padding: 42px 0;
+  background: #252525;
+  color: #B5B5B5;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .site-width { width: 96%; }
+
+  #headnav UL LI UL.columns { left: 25%; }
+
+  FOOTER #footnav UL {
+    -webkit-column-gap: 6.4vw;
+    -moz-column-gap: 6.4vw;
+    column-gap: 6.4vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  FOOTER .left A.contact-button:link,
+  FOOTER .left A.contact-button:visited,
+  FOOTER .left A.join-button:link,
+  FOOTER .left A.join-button:visited {
+    font-size: 1.6vw;
+  }
+
+  FOOTER .social A:link, FOOTER .social A:visited {
+    width: 4vw;
+    height: 4vw;
+    font-size: 2.1vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* Small computer or landscape tablet */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet */
+}
+
+@media only screen and (max-width: 600px) {
+  /* Small tablet */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Phone */
+}
