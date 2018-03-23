@@ -105,44 +105,54 @@
         <div id="pinned">
           <div class="event">
             <h2><div>May<div>30</div></div></h2>
-            <h3>The Big Event: A Top-Pinned Event To Generate Buzz</h3>
-            <h4>6:00 - 9:00 PM</h4>
-            The Big Event Location<br>
-            123 Main St., Madison, WI
+            <div>
+              <h3>The Big Event: A Top-Pinned Event To Generate Buzz</h3>
+              <h4>6:00 - 9:00 PM</h4>
+              The Big Event Location<br>
+              123 Main St., Madison, WI
+            </div>
           </div>
         </div>
 
         <div class="event">
           <h2><div>Mar<div>06</div></div></h2>
-          <h3>2018 Wisconsin Policy Forum Annual Meeting</h3>
-          <h4>5:00 - 7:00 PM</h4>
-          The Wisconsin Club<br>
-          900 W Wisconsin Ave., Milwaukee, WI
+          <div>
+            <h3>2018 Wisconsin Policy Forum Annual Meeting</h3>
+            <h4>5:00 - 7:00 PM</h4>
+            The Wisconsin Club<br>
+            900 W Wisconsin Ave., Milwaukee, WI
+          </div>
         </div>
 
         <div class="event">
           <h2><div>Mar<div>13</div></div></h2>
-          <h3>Wisconsin Policy Forum Madison Kick-Off Event</h3>
-          <h4>5:00 - 7:00 PM</h4>
-          Brocach Irish Pub & Whiskey Den<br>
-          7 W Main St., Madison, WI
+          <div>
+            <h3>Wisconsin Policy Forum Madison Kick-Off Event</h3>
+            <h4>5:00 - 7:00 PM</h4>
+            Brocach Irish Pub & Whiskey Den<br>
+            7 W Main St., Madison, WI
+          </div>
         </div>
 
         <div class="event">
           <h2><div>Apr<div>30</div></div></h2>
-          <h3>2018 Budget Meeting</h3>
-          <h4>5:00 - 7:00 PM</h4>
-          Brocach Irish Pub & Whiskey Den<br>
-          7 W Main St., Madison, WI
+          <div>
+            <h3>2018 Budget Meeting</h3>
+            <h4>5:00 - 7:00 PM</h4>
+            Brocach Irish Pub & Whiskey Den<br>
+            7 W Main St., Madison, WI
+          </div>
         </div>
 
         <a href="#" class="button">View Event Calendar</a>
       </div>
 
+      <div id="publication-header"><span>Featured</span> Publication</div>
+
       <div id="publication">
         <div id="publication-info">
           <img src="images/2017-03.jpg" alt="">
-        
+
           <div>
             <h2>The Last Mile:</h2>
             <h3>Connecting Workers to Places of Employment</h3>
@@ -167,6 +177,43 @@
         </ul>
 
         <a href="#" class="button">View Publication</a>
+      </div>
+    </div>
+
+    <div id="home-join">
+      <div>
+        <em>"The Forum continues to demonstrate that fact-based research and civil policy discourse still matter in Wisconsin."
+        <h2>- Andy Schiesl</h2>
+        <h3>Gardner Denver</h3></em>
+
+        <h4><span>Be part of</span> the conversation.</h4>
+
+        <a href="#">Join The WPF</a>
+      </div>
+    </div>
+
+    <div id="home-blog">
+      <div class="site-width">
+        <div class="blog">
+          <h2>BLOG</h2>
+          <h1>HEADLINE OF ARTICLE OR MEDIA</h1>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et odio felis. Integer fermentum malesuada arcu vitae pharetra. Aliquam posuere nulla ut massa pretium interdum. Morbi quis aliquam augue. Phasellus a nulla velit. Sed nec gravida tellus. Suspendisse et odio in lorem sollicitudin consectetur non ac enim. Dolor sit amet.
+          <div><a href="#">Read More</a></div>
+        </div>
+
+        <div class="blog">
+          <h2>NEWS</h2>
+          <h1>HEADLINE OF ARTICLE OR MEDIA</h1>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et odio felis. Integer fermentum malesuada arcu vitae pharetra. Aliquam posuere nulla ut massa pretium interdum. Morbi quis aliquam augue. Phasellus a nulla velit. Sed nec gravida tellus. Suspendisse et odio in lorem sollicitudin consectetur non ac enim. Dolor sit amet.
+          <div><a href="#">Read More</a></div>
+        </div>
+
+        <div class="blog">
+          <h2>MEDIA</h2>
+          <h1>HEADLINE OF ARTICLE OR MEDIA</h1>
+          Odio in lorem sollicitudin consectetur non  ac enim. Dolor sit amet.
+          <div><a href="#">Read More</a></div>
+        </div>
       </div>
     </div>
 
