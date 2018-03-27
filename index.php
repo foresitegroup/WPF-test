@@ -32,13 +32,7 @@
       <div id="header-right">
         <a href="#" class="contact-button">Contact Us</a>
         <a href="#" class="join-button">Join</a>
-
-        <form>
-          <div>
-            <input type="text" name="search">
-            <button type="submit"><i class="fas fa-search"></i></button>
-          </div>
-        </form>
+        <a href="#" class="event-button">Register For An Event</a>
       </div>
     </header>
 
@@ -54,7 +48,14 @@
             <li><a href="#">Staff/Board</a></li>
           </ul>
         </li>
-        <li><a href="#">Get Involved</a></li>
+        <li>
+          <a href="#">Get Involved</a>
+          <ul>
+            <li><a href="#">Join WPF</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">WPF Members</a></li>
+          </ul>
+        </li>
         <li>
           <a href="#">Research</a>
           <ul class="columns">

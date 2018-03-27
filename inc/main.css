@@ -85,6 +85,8 @@ HEADER {
 #header-right A.contact-button:visited,
 #header-right A.join-button:link,
 #header-right A.join-button:visited,
+#header-right A.event-button:link,
+#header-right A.event-button:visited,
 FOOTER .left A.contact-button:link,
 FOOTER .left A.contact-button:visited,
 FOOTER .left A.join-button:link,
@@ -109,51 +111,21 @@ FOOTER .left A.join-button:visited {
   float: right;
 }
 
+#header-right A.event-button:link,
+#header-right A.event-button:visited {
+  background: #1275BB;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
 #header-right A.contact-button:hover,
 #header-right A.contact-button:active,
 #header-right A.join-button:hover,
-#header-right A.join-button:active {
+#header-right A.join-button:active,
+#header-right A.event-button:hover,
+#header-right A.event-button:active {
   background: #1C305B;
 }
-
-#header-right FORM { clear: both; padding-top: 1em; }
-#header-right FORM DIV { position: relative; }
-
-#header-right INPUT[type="text"] {
-  outline: 0;
-  border: 1px solid #D7D7D7;
-  background: transparent;
-  color: #474747;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1em;
-  padding: 0.19em 35px 0.19em 5px;
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-}
-
-#header-right BUTTON {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 30px;
-  outline: 0;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  background: #1C305B;
-  color: #FFFFFF;
-  font-size: 17px;
-  line-height: 1em;
-  cursor: pointer;
-  transition: all 0.2s;
-  -webkit-appearance: none;
-}
-
-#header-right BUTTON:hover { background: #24A9E0; }
 
 #toggle-menu,
 LABEL[for="toggle-menu"] { display: none; }
@@ -957,11 +929,11 @@ FOOTER #footnav UL LI A:after {
     margin-right: 2%;
   }
 
-  #header-right FORM {
-    clear: none;
-    padding-top: 0;
+  #header-right A.event-button:link,
+  #header-right A.event-button:visited {
     width: 46%;
     float: left;
+    margin-top: 0;
   }
 
   LABEL[for="toggle-menu"] {
@@ -1184,8 +1156,10 @@ FOOTER #footnav UL LI A:after {
   #header-right A.contact-button:link,
   #header-right A.contact-button:visited,
   #header-right A.join-button:link,
-  #header-right A.join-button:visited {
-    font-size: 3vw;
+  #header-right A.join-button:visited,
+  #header-right A.event-button:link,
+  #header-right A.event-button:visited {
+    font-size: 2.7vw;
   }
 
   FOOTER #footnav { font-size: 4.5vw; }
